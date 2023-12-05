@@ -1,0 +1,76 @@
+#wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+        'imgHd h1Hd navHd'
+        'imgAs imgMn pAr'
+        'imgFt pFt imgFt2'
+    ;
+}
+
+.imageHeader{
+    grid-area: imgHd;
+    background-color: aqua;
+}
+.h1Header{
+    grid-area: h1Hd;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navHeader{
+    grid-area: navHd;
+    background-color: crimson   ;
+}
+
+.imageAside{
+    grid-area: imgAs;
+    background-color: azure;
+
+    border-style: groove;
+    border-width: 10px;
+    border-color: lightgoldenrodyellow;
+}
+.imageMain{
+    grid-area: imgMn;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pArticle{
+    grid-area: pAr;
+    background-color: lightcoral   ;
+
+    
+
+    
+}
+
+.imageFooter{
+    grid-area: imgFt;
+    background-color: aqua;
+}
+.pFooter{
+    grid-area: pFt;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageFooter2{
+    grid-area: imgFt2;
+    background-color: crimson   ;
+}
+
+.skeletonChair{
+    width: 100%;
+    height: 100%;
+}
+
+.comicSansText {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
