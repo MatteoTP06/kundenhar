@@ -12,18 +12,43 @@
 
 .imageHeader{
     grid-area: imgHd;
-    background-color: aqua;
+
+    background-color:rgb(255, 255, 240);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-style: groove;
+    border-width: 10px;
+    border-color: #3498db;
 }
 .h1Header{
     grid-area: h1Hd;
 
+    border-style:groove;
+    border-width: 10px;
+    border-color: #3498db;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    background-image: url("../img/ccsea.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .navHeader{
     grid-area: navHd;
-    background-color: crimson   ;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #3498db;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+
+    background-color: white   ;
 }
 
 .imageAside{
@@ -32,7 +57,7 @@
 
     border-style: groove;
     border-width: 10px;
-    border-color: lightgoldenrodyellow;
+    border-color: rgb(255, 255, 241);
 }
 .imageMain{
     grid-area: imgMn;
@@ -43,11 +68,16 @@
 }
 .pArticle{
     grid-area: pAr;
-    background-color: lightcoral   ;
+    background-color: black;
 
-    
+    border-style: groove;
+    border-color: rgb(255, 255, 241);
+    border-width: 10px;
 
-    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .imageFooter{
@@ -56,14 +86,15 @@
 }
 .pFooter{
     grid-area: pFt;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .imageFooter2{
     grid-area: imgFt2;
     background-color: crimson   ;
+}
+
+.logoImg{
+    width: 100%;
+    height: 100%;
 }
 
 .skeletonChair{
@@ -71,6 +102,27 @@
     height: 100%;
 }
 
-.comicSansText {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+.logoText {
+    font-family:'Times New Roman', Times, serif;
+    color:#3498db;
+    font-size: 5rem;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+}
+
+.anchorButton{
+    border-style: dotted;
+
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+    color: lightgoldenrodyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
