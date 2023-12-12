@@ -1,0 +1,89 @@
+#wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas:
+        'hd hd2'
+        'ar ar2'
+    ;
+}
+
+.header1{
+    grid-area: hd;
+    background-image: url(../img/skeletone2.jpeg);
+    background-size: cover;
+
+    border-style: ridge;
+    border-color: #3498db;
+    border-width: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header2{
+    grid-area: hd2;
+    background-image: url(../img/surface.jpg);
+    background-size:contain;
+    background-size: contain;
+
+    border-style: ridge;
+    border-color: #3498db;
+    border-width: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.article1{
+    filter: contrast(2);
+
+    grid-area: ar;
+    background-image: url(../img/dirt.jpg);
+
+    border-style: ridge;
+    border-color: #3498db;
+    border-width: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.article2{
+    filter:contrast(2);
+
+    grid-area: ar2;
+    background-image: url(../img/ccsea.webp);
+    background-size:cover;
+
+    border-style: ridge;
+    border-color: #3498db;;
+    border-width: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+
+    color:#3498db;
+    font-size: 4rem;
+    -webkit-text-stroke-color: darkblue;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-shadow: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}

@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 20% 50% 30%;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-rows: 20% 90% 30%;
     grid-template-areas:
         'imgHd h1Hd navHd'
         'imgAs imgMn pAr'
@@ -13,7 +13,7 @@
 .imageHeader{
     grid-area: imgHd;
 
-    background-color:rgb(255, 255, 240);
+    background-image: url("../img/ccsea.webp");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -48,7 +48,9 @@
     align-content: center;
     justify-content:center;
 
-    background-color: white   ;
+    background-image: url("../img/ccsea.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .imageAside{
@@ -57,21 +59,24 @@
 
     border-style: groove;
     border-width: 10px;
-    border-color: rgb(255, 255, 241);
+    border-color: #3498db;
 }
 .imageMain{
     grid-area: imgMn;
-
+    background-image: url(../img/skeletone2.jpeg);
+    background-size:cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    filter: contrast(1.5);
 }
 .pArticle{
     grid-area: pAr;
     background-color: black;
 
     border-style: groove;
-    border-color: rgb(255, 255, 241);
+    border-color: #3498db;
     border-width: 10px;
 
     display: flex;
@@ -81,23 +86,32 @@
 }
 
 .imageFooter{
+    border-style: ridge;
+    border-width: 7.5px;
+
     grid-area: imgFt;
     background-color: aqua;
 }
 .pFooter{
+    border-style: ridge;
+    border-width: 7.5px;
+
     grid-area: pFt;
+    background-color: black;
 }
 .imageFooter2{
+    border-style: ridge;
+    border-width: 7.5px;
     grid-area: imgFt2;
     background-color: crimson   ;
 }
 
-.logoImg{
+#logoImg{
     width: 100%;
     height: 100%;
 }
 
-.skeletonChair{
+#skeletonChair{
     width: 100%;
     height: 100%;
 }
@@ -106,8 +120,8 @@
     font-family:'Times New Roman', Times, serif;
     color:#3498db;
     font-size: 5rem;
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(28, 28, 94);
+    -webkit-text-stroke-width: 2.5px;
 }
 
 .anchorButton{
@@ -116,6 +130,10 @@
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    
+    color: lightgoldenrodyellow;
+    -webkit-text-stroke-color: rgb(28, 28, 94);
+    -webkit-text-stroke-width: 1.5px;
 }
 
 p{
@@ -125,4 +143,18 @@ p{
 
     color: lightgoldenrodyellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainImages{
+    width: 50%;
+    height: 30%;
+
+    border-style:ridge;
+    border-width: 5px;
+    border-color: #3498db;
+}
+
+.footerImages{
+    height: 100%;
+    width: 100%;
 }
