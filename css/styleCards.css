@@ -1,0 +1,71 @@
+#wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        'as as mn'
+    ;
+}
+
+img{
+    border-style: dotted;
+    border-color: #3498db;
+    width: 100%;
+    height: 80%;
+}
+figure{
+    width: 90%;
+    height: 30%;
+    border-style: groove;
+    border-color: #3498db;
+    border-width: 15px;
+    background-color:#0e2c40;
+}
+figcaption{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+
+.as2{
+    padding: 10px;
+    background-image: url(../img/surface.jpg);
+    background-position-y: center;
+    border-style:groove;
+    border-color: white;
+    border-width: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.as1{
+    padding: 10px;
+    background-image: url(../img/surface.jpg);
+    background-position-y: center;
+    border-style:groove;
+    border-color: white;
+    border-width: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    border-style: groove;
+    border-width: 5px;
+    background-image: url(../img/ccsea.webp);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
