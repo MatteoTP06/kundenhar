@@ -118,9 +118,9 @@
 
 .logoText {
     font-family:'Times New Roman', Times, serif;
-    color:#3498db;
+    color:white;
     font-size: 5rem;
-    -webkit-text-stroke-color: rgb(28, 28, 94);
+    -webkit-text-stroke-color: #1c1c5e;
     -webkit-text-stroke-width: 2.5px;
 }
 
@@ -140,6 +140,16 @@ p{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
+    text-align: center;
+
+    color: lightgoldenrodyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.indexP{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    text-align: left;
 
     color: lightgoldenrodyellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

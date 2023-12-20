@@ -8,6 +8,29 @@
     ;
 }
 
+li{
+    font-size: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 5px;
+    word-spacing: 1.5px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 5rem;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(28, 28, 94);
+    -webkit-text-stroke-width: 2.5px;
+}
 img{
     border-style: dotted;
     border-color: #3498db;
@@ -16,7 +39,7 @@ img{
 }
 figure{
     width: 90%;
-    height: 30%;
+    height: 25%;
     border-style: groove;
     border-color: #3498db;
     border-width: 15px;
@@ -33,23 +56,24 @@ figcaption{
 
 .as2{
     padding: 10px;
-    background-image: url(../img/surface.jpg);
+    background-image: url(../img/skeletone2.jpeg);
     background-position-y: center;
+    background-size: 400%;
     border-style:groove;
-    border-color: white;
+    border-color: #3498db;
     border-width: 4px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 .as1{
     padding: 10px;
     background-image: url(../img/surface.jpg);
     background-position-y: center;
     border-style:groove;
-    border-color: white;
+    border-color: #3498db;
     border-width: 4px;
 
     display: flex;
@@ -60,12 +84,23 @@ figcaption{
 
 main{
     border-style: groove;
-    border-width: 5px;
+    border-width: 4px;
+    border-color: #3498db;
     background-image: url(../img/ccsea.webp);
     background-size: cover;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+}
+figure:hover{
+    position:relative;
+    z-index: 100;
+    width: 110%;
+    height: 60%;
+    border-style: groove;
+    border-color: #3498db;
+    border-width: 15px;
+    background-color:#0e2c40;
 }
